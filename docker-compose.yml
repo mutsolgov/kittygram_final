@@ -15,7 +15,7 @@ services:
     build: ./backend/
     env_file: .env
     volumes:
-      - static:/static # Примонтировать том "static" внутри контейнера "backend" по пути "/static"
+      - static:/static
       - media:/media
   frontend:
     env_file: .env
