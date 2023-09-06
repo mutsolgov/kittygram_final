@@ -17,6 +17,8 @@ services:
     volumes:
       - static:/static
       - media:/app/media
+    depends_on:
+      - db
   frontend:
     image: mutsolgov/kittygram_frontend
     env_file: .env
@@ -29,5 +31,8 @@ services:
     volumes:
       - static:/static/
       - media:/app/media/
+    depends_on:
+      - backend
+      - frontend
     ports:
       - 9000:80
