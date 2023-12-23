@@ -1,7 +1,7 @@
 # Социальная сеть Kittygram
 ![example workflow](https://github.com/mutsolgov/kittygram_final/actions/workflows/main.yml/badge.svg)
 
-## Kittygram: это социальная сеть, с возможностью обмена фотографий, достижений, а также возроста кошек.
+## Kittygram: это социальная сеть, с возможностью обмена фотографий, достижений, а также возраста кошек.
 
 ### Стэк
 
